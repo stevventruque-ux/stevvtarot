@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="78%">
+      <stop offset="0%" stop-color="#1a1411"/>
+      <stop offset="55%" stop-color="#0c0907"/>
+      <stop offset="100%" stop-color="#050403"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Marco dorado fino -->
+  <rect x="28" y="28" width="1144" height="574" fill="none" stroke="#B08545" stroke-width="1.2" stroke-opacity="0.55"/>
+  <rect x="40" y="40" width="1120" height="550" fill="none" stroke="#B08545" stroke-width="0.6" stroke-opacity="0.3"/>
+
+  <!-- Pentagrama a la izquierda, r=130 centrado en (260, 315) -->
+  <g transform="translate(260 315)">
+    <circle cx="0" cy="0" r="155" fill="none" stroke="#B08545" stroke-width="2" stroke-opacity="0.9"/>
+    <circle cx="0" cy="0" r="170" fill="none" stroke="#B08545" stroke-width="0.7" stroke-opacity="0.4"/>
+    <circle cx="0" cy="0" r="138" fill="none" stroke="#B08545" stroke-width="0.5" stroke-opacity="0.3"/>
+    <!-- Estrella 5-puntas inscrita: top → bottom-right → top-left → top-right → bottom-left -->
+    <polygon
+      points="0,-130 76.42,105.17 -123.63,-40.18 123.63,-40.18 -76.42,105.17"
+      fill="none"
+      stroke="#B08545"
+      stroke-width="1.8"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+      stroke-opacity="0.95"/>
+    <circle cx="0" cy="0" r="4" fill="#B08545"/>
+    <!-- Marcas cardinales sutiles -->
+    <g stroke="#B08545" stroke-width="1" stroke-opacity="0.6">
+      <line x1="0" y1="-172" x2="0" y2="-182"/>
+      <line x1="0" y1="172" x2="0" y2="182"/>
+      <line x1="-172" y1="0" x2="-182" y2="0"/>
+      <line x1="172" y1="0" x2="182" y2="0"/>
+    </g>
+  </g>
+
+  <!-- Micro-label superior -->
+  <text x="530" y="215"
+        fill="#B08545"
+        font-family="'IM Fell English', 'Cormorant Garamond', serif"
+        font-style="italic"
+        font-size="22"
+        letter-spacing="6"
+        opacity="0.85">— Tarot &amp; Ritual —</text>
+
+  <!-- Título principal -->
+  <text x="530" y="305"
+        fill="#f1e6d0"
+        font-family="'Cormorant Garamond', 'Times New Roman', serif"
+        font-weight="400"
+        font-size="92"
+        letter-spacing="2">Stevv Tarot</text>
+
+  <!-- Línea decorativa -->
+  <line x1="530" y1="340" x2="690" y2="340" stroke="#B08545" stroke-width="1.2" stroke-opacity="0.8"/>
+
+  <!-- Tagline -->
+  <text x="530" y="395"
+        fill="#d9cfbf"
+        font-family="'Cormorant Garamond', 'Times New Roman', serif"
+        font-style="italic"
+        font-weight="300"
+        font-size="34">Cada alma tiene su propio camino,</text>
+  <text x="530" y="438"
+        fill="#d9cfbf"
+        font-family="'Cormorant Garamond', 'Times New Roman', serif"
+        font-style="italic"
+        font-weight="300"
+        font-size="34">déjame descubrirlo contigo.</text>
+
+  <!-- Pie dorado -->
+  <text x="530" y="520"
+        fill="#B08545"
+        font-family="'Cormorant Garamond', serif"
+        font-weight="500"
+        font-size="20"
+        letter-spacing="3">LECTURAS  ·  RITUALES  ·  TRABAJOS</text>
+
+  <text x="530" y="558"
+        fill="#8a7456"
+        font-family="'IM Fell English', serif"
+        font-style="italic"
+        font-size="20"
+        opacity="0.9">stevvtarot.com</text>
+</svg>
